@@ -1,0 +1,554 @@
+Q	1. Overloading and overriding
+ 	2. how to communicate one microservice into another microservice
+ 	3. how to create custom exception
+Q	1. Overloading and overriding
+ 	2. how to communicate one microservice into another microservice
+ 	3. how to create custom exception
+ 	4. how to centralize exception handling in multiple methods
+ 	5. Microservice Architecture
+ 	6. concurrent hashmap
+ 	7. MutiThreading
+ 	 
+ 	REST Endpoint
+ 	Business logic with Controller class
+ 	Having Clause where it is used.
+ 	Scenario based : Given a list of 1500 records, say we have an error in the 501st record, how to store the already read 500 records in database and return
+ 	public class Employee {
+ 	   private Long id;
+ 	   private String name;
+ 	   Employee(Long id, String name){
+ 	   this.id = id;
+ 	   this.name=name;
+ 	   }
+ 	   //setters and getters
+ 	}
+ 	Employee e1 = new Employee(1, "TEST"); eid = 1,2,3,4...10
+ 	Employee e2 = new Employee(1, "TEST");   name = "Eshan", "Eshan,"Naresh"
+ 	List<Employee> list = new ArrayList<>();
+ 	list.add(e1);
+ 	list.add(e2);
+ 	 
+ 	Set<EMployee> set = new HashSet<>();
+ 	set.add(e1);
+ 	set.add(e2);
+ 	Length of list and set objects
+ 	 
+ 	7.Stream to find the ids of employee whose name is "Eshan"
+ 	 
+ 	 
+ 	OOPS Concept
+ 	Exception && Errors
+ 	checked and unchecked Exception
+ 	Static & final Keyword
+ 	Immutability
+ 	Final Classes
+ 	Scenario for  static method overriding
+ 	overloading and overriding
+ 	Group by function
+ 	union && union all
+ 	inp :[4,-5,2,9,-1,-6,2,8,1,-2] output :[-5,-1,-6,-2,4,2,9,2,8,1]
+ 	Collection
+ 	type of Collections
+ 	difference between hashset and hashMap also internal working of both
+ 	SpringBoot
+ 	different HTTP method
+ 	 
+ 	Difference between path variable and query param?
+ 	What are the performance issues you have encountered?
+ 	How do you perform validations in Spring boot?
+ 	How do you implement Exception Handling in Spring Boot?
+ 	Find out the distinct elements in an array? ["James","Peter","Peter", "James", "John","Peter"]
+ 	Find out the count of elements?
+ 	Find out the frequenct of String elements in a List and give out put in a map. Output Should be James=2, Peter=3, John=1
+ 	And sort that List?
+ 	 
+ 	Tell me about yourself
+ 	Experience and past projects
+ 	Core Java
+ 	1. Pillars of OOPs
+ 	2. Exception , checked Exception, examples of Checked Exception
+ 	3. Abstract vs Interface
+ 	4. String s= new String(); String s=""; (Explain)
+ 	5. What is garbage collection, what is the method used for garbage collection; (Explained with mark and sweep algorithm)
+ 	Java 8
+ 	1. filter Employees who have salary more than 25k
+ 	2. Collection framework
+ 	3. concurrent Hashmap
+ 	4. ConcurrentHashMap vs SyncronizedHashmap
+ 	5. Functional Interface
+ 	6. Default methods vs static methods
+ 	7. internal working of concurrenthashmap
+ 	8. fail-fast vs fail-safe
+ 	9. Internal working of hashmap in Java 8 using binray-tree
+ 	10.Pre-built lambda functional Interface
+ 	11.explain where predict consumer and suppliers are used in stream
+ 	Spring Boot
+ 	1. flow of springboot application
+ 	2. Stereotype annotations only names
+ 	3. fetchtype.LAZY vs fetchtype.EAGER
+ 	HandsOn Code
+ 	I have a array which has 10 number and one is number is missing like 1,2,3,4,5,6,7,9,10 ,,8
+ 	is missing here can you find out that number?
+ 	 
+ 	Write a program to find whether a String is an anagram or not
+ 	Write a program to find whether a String is a palendrome or not
+ 	Write a program to merge two lists and maps using Stream API
+ 	Write a program to sort an Employee salary using Stream API and Comparable Interface
+ 	Write a program to print even numbers upto 100 using Thread Executors
+ 	Write a program for two sum in an Array.
+ 	Write a program to add the elements in an array using Stream API
+ 	Write a program to find the maximum occurrence of an element in an array.
+ 	Write a program to find the binary value of a given decimal number
+ 	Write a program to find the sum of first natural numbers.
+ 	Write a program to merge two lists and maps using Stream API
+ 	Write a program to add the elements in an array using Stream API
+ 	Write a program to find the binary value of a given decimal number
+ 	Q1. Java Program to Find the Occurrence of Words in a String using Collection framework?
+ 	eg.  For String “Alice is girl and Bob is boy”  , Occurrence of Words will be  -  
+ 	          {Bob=1, Alice=1, and=1, is=2, girl=1, boy=1}
+ 	Q2. find non repeating number from array
+ 	eg - input =  1 2 5 3 2 1 4  , out put = 5 3 4
+ 	Q3. Construct Binary Search Tree from Preorder Traversal
+ 	Input: preorder = [8,5,1,7,10,12]
+ 	Output: [8,5,10,1,7,null,12]
+ 	Q4. write a program to determine if string has all unique characters or not ?
+ 	Q5.write afinction to check if string has a permutation of palindrome .
+ 	eg ; input : "Tact Coa"
+ 	output : true  - ("taco cat" ,"atco cta" )
+ 	 
+ 	reverse a string using recursion
+ 	find the number of occurrence of each word in a file; find any 2 words with same occurrence; if found sort those words alphabetically in ascending order; if not found sort based on values in ascending order
+ 	 
+ 	 
+ 	1. How to sort a array in descending order without using inbuilt methods.
+ 	2. how to sort this in other optimised way if any.
+ 	3. Get the highest salary employee namee by joining two tables employee and department who has relation with dept id
+ 	4. please have a fullstack setup of any sample project in the your laptop he will ask the questions based on that. Mostly ask from very basic
+ 	Suggestion:: try to write code for every program in a optimised way
+ 	 
+ 	latest::
+ 	 
+ 	1. write a code for sort array in optimized way and given array{1,1,0,0,1,0,1,0} explain time complexity for the code 
+ 	 
+ 	 
+ 	wirte a sql query for getting max salaries for employees department wise
+ 	 
+ 	 
+ 	Technologies used and previous projects and tech stack
+ 	How do we manage db properties in multiple env scenario
+ 	Questions on spring profiles
+ 	Questions related to project configuration
+ 	How did you handle transaction and questions related to transaction management(saving into multiple tables)
+ 	Spring transactional behaviour and attributes like isolation, propagation, etc
+ 	Java version used and features of newer java versions
+ 	Write code - class employee has name, lname, salary, age. We have a list of employees. Use java 8 to sort the list per fname. If same fname then further sort on lname and if same lname then further sort by age.
+ 	Method references, types of method references
+ 	Given Emp list write code to get list of first names that start with 'A' and return fname in caps
+ 	Query to fetch all employee addresses from employee and employee_address
+ 	Query to fetch Query to find second largest salary from employee table
+ 	Scope of bean and where it can be used and how
+ 	Your custom functional interface
+ 	 
+ 	What are Bean?What there scops
+ 	Q2. What is autowiring? and there types
+ 	Q3. What are transactionals? and how can we provide them in spring
+ 	Q4. how to provide JPA? are those classes or interfaces
+ 	Q5. What are stereotype annotations? name a few
+ 	Q6. What is Dependency Injection and how can we provide them?
+ 	Q7. Create a CustomException class and how can we use it
+ 	 
+ 	Explain current project .
+ 	what was your role
+ 	Abstraction and Encapuslation
+ 	How to create Immutable class in Java?
+ 	private final List<String> address; is this is immutable -- solution Need to use ImmutableList
+ 	write equal and hashcode method () for Employee class id, name
+ 	Does Immutability and Singleton solves the same purpose?
+ 	what is Iterator
+ 	what is fail fast and fail save
+ 	merge two sub array in single array using only single loop ? int arr1 = {1,2,3,4,5};
+ 	int arr2 = {6,7,8,9,10};
+ 	 
+ 	@trasaction what is doing if we have 2 operation for save and one for update , save got pass and update got failed .
+ 	5000 record can we same in one short in database ? if not what is solution
+ 	have you work for batch processing
+ 	code for call and use another rest api in one api method .
+ 	Designe Pattern , which you have used in which situation . Singelton , Abstract factory , factory pattern
+ 	springboot exceptionhandling
+ 	ACID principle
+ 	 
+ 	About the previous project and technologies...
+ 	1. HashMap internal working and can we add custom object as key.if we remove equals and hashcode() from employee class then what will happen.
+ 	2. Difference b/w ArrayList and linkedList and Linkedlist internal working.
+ 	3. In which scenario we should use linkedlist.
+ 	4. Comparable vs Comparator..? how we can sort the list using comparable interface .
+ 	5. @Transactional use and acid properties
+ 	6. Spring boot feature...
+ 	7. How many collection have you used..?
+ 	8. Java 8 new features..
+ 	> what is stream  api
+ 	> what is functional interface.
+ 	> lambda expression
+ 	10.Difference @RestController vs @Controller
+ 	11.Difference put vs post vs get vs delete
+ 	12.What is idempotent in rest methods?
+ 	13.How we can secure Rest call..?
+ 	14.what is logic behind fetch record if we have multiple condition like id Or (id & depart id) Or emp name started with s
+ 	9. Working of annotation's @ComponentScan @EnableAutoConfiguration @Configuration
+ 	 
+ 	 
+ 	what is OOPS concept ..  ?
+ 	What is IS-A realionship and HAS-A realtionship..? with an example ..?
+ 	String class and scenareo's..?
+ 	   like String s1  = new String("hello"); //how many object will create..?
+ 	  String s2 = "hello";
+ 	equality check of s1 and s2  (==) and equals()
+ 	 
+ 	Difference between abstract class and interface..?
+ 	Tell me all the implicit object of JSP...
+ 	what is servlet and its life cycle....?
+ 	how to fetch data from two tables ..?
+ 	 
+ 	 
+ 	Asked me about my previous project experience.
+ 	Functional Interface
+ 	interface Java 8
+ 	predefined functional interface
+ 	Stream API
+ 	find the first duplicate character in given string.
+ 	final, finally, finalize
+ 	post, put, patch
+ 	Read about Azure.
+ 	t.start()
+ 	Executor Framework
+ 	 
+ 	 
+ 	1. Explain current project architecture.
+ 	2.  How to do custom exception handling, Explain with current project scenario.
+ 	3. At Which layer we handle custom exception?
+ 	4. WAP to sort student class on the basis of id then name.
+ 	5. Which one is better hql or native query?
+ 	6. What all methods CrudRepository can handle ?
+ 	7. JpaRepository vs Cudrepository?
+ 	8. How to write query method for getting list of Student class on the basis of id and name ,order by id and name in descending order.
+
+------------
+------------
+
+https://javatechonline.com/spring-boot-tutorial/
+
+-----------
+-----------
+
+Asked me about my previous project experience.
+Functional Interface
+interface Java 8
+predefined functional interface
+Stream API
+find the first duplicate character in given string.
+final, finally, finalize
+post, put, patch
+Read about Azure.
+t.start()
+Executor Framework
+ 
+ 
+1. Explain current project architecture.
+2.  How to do custom exception handling, Explain with current project scenario.
+3. At Which layer we handle custom exception?
+4. WAP to sort student class on the basis of id then name.
+5. Which one is better hql or native query?
+6. What all methods CrudRepository can handle ?
+7. JpaRepository vs Cudrepository?
+8. How to write query method for getting list of Student class on the basis of id and name ,order by id and name in descending order.
+
+===============
+
+Explain current project .
+what was your role
+Abstraction and Encapuslation
+How to create Immutable class in Java?
+private final List<String> address; is this is immutable -- solution Need to use ImmutableList
+write equal and hashcode method () for Employee class id, name
+Does Immutability and Singleton solves the same purpose?
+what is Iterator
+what is fail fast and fail save
+merge two sub array in single array using only single loop ? int arr1 = {1,2,3,4,5};
+int arr2 = {6,7,8,9,10};
+ 
+@trasaction what is doing if we have 2 operation for save and one for update , save got pass and update got failed .
+5000 record can we same in one short in database ? if not what is solution
+have you work for batch processing
+code for call and use another rest api in one api method .
+Designe Pattern , which you have used in which situation . Singelton , Abstract factory , factory pattern
+springboot exceptionhandling
+ACID principle
+ 
+About the previous project and technologies...
+1. HashMap internal working and can we add custom object as key.if we remove equals and hashcode() from employee class then what will happen.
+2. Difference b/w ArrayList and linkedList and Linkedlist internal working.
+3. In which scenario we should use linkedlist.
+4. Comparable vs Comparator..? how we can sort the list using comparable interface .
+5. @Transactional use and acid properties
+6. Spring boot feature...
+7. How many collection have you used..?
+8. Java 8 new features..
+> what is stream  api
+> what is functional interface.
+> lambda expression
+10.Difference @RestController vs @Controller
+11.Difference put vs post vs get vs delete
+12.What is idempotent in rest methods?
+13.How we can secure Rest call..?
+14.what is logic behind fetch record if we have multiple condition like id Or (id & depart id) Or emp name started with s
+9. Working of annotation's @ComponentScan @EnableAutoConfiguration @Configuration
+ 
+ 
+what is OOPS concept ..  ?
+What is IS-A realionship and HAS-A realtionship..? with an example ..?
+String class and scenareo's..?
+   like String s1  = new String("hello"); //how many object will create..?
+  String s2 = "hello";
+equality check of s1 and s2  (==) and equals()
+ 
+Difference between abstract class and interface..?
+Tell me all the implicit object of JSP...
+what is servlet and its life cycle....?
+how to fetch data from two tables ..?
+
+================
+
+https://jainniraj.medium.com/internal-working-of-arraylist-in-java-816d6bd76e18
+
+===================
+
+1. Overloading and overriding
+2. how to communicate one microservice into another microservice
+3. how to create custom exception
+4. how to centralize exception handling in multiple methods
+5. Microservice Architecture
+6. concurrent hashmap
+7. MutiThreading
+ 
+REST Endpoint
+Business logic with Controller class
+Having Clause where it is used.
+Scenario based : Given a list of 1500 records, say we have an error in the 501st record, how to store the already read 500 records in database and return
+public class Employee {
+   private Long id;
+   private String name;
+   Employee(Long id, String name){
+   this.id = id;
+   this.name=name;
+   }
+   //setters and getters
+}
+Employee e1 = new Employee(1, "TEST"); eid = 1,2,3,4...10
+Employee e2 = new Employee(1, "TEST");   name = "Eshan", "Eshan,"Naresh"
+List<Employee> list = new ArrayList<>();
+list.add(e1);
+list.add(e2);
+ 
+Set<EMployee> set = new HashSet<>();
+set.add(e1);
+set.add(e2);
+Length of list and set objects
+ 
+7.Stream to find the ids of employee whose name is "Eshan"
+ 
+ 
+OOPS Concept
+Exception && Errors
+checked and unchecked Exception
+Static & final Keyword
+Immutability
+Final Classes
+Scenario for  static method overriding
+overloading and overriding
+Group by function
+union && union all
+inp :[4,-5,2,9,-1,-6,2,8,1,-2] output :[-5,-1,-6,-2,4,2,9,2,8,1]
+Collection
+type of Collections
+difference between hashset and hashMap also internal working of both
+SpringBoot
+different HTTP method
+ 
+Difference between path variable and query param?
+What are the performance issues you have encountered?
+How do you perform validations in Spring boot?
+How do you implement Exception Handling in Spring Boot?
+Find out the distinct elements in an array? ["James","Peter","Peter", "James", "John","Peter"]
+Find out the count of elements?
+Find out the frequenct of String elements in a List and give out put in a map. Output Should be James=2, Peter=3, John=1
+And sort that List?
+ 
+Tell me about yourself
+Experience and past projects
+Core Java
+1. Pillars of OOPs
+2. Exception , checked Exception, examples of Checked Exception
+3. Abstract vs Interface
+4. String s= new String(); String s=""; (Explain)
+5. What is garbage collection, what is the method used for garbage collection; (Explained with mark and sweep algorithm)
+Java 8
+1. filter Employees who have salary more than 25k
+2. Collection framework
+3. concurrent Hashmap
+4. ConcurrentHashMap vs SyncronizedHashmap
+5. Functional Interface
+6. Default methods vs static methods
+7. internal working of concurrenthashmap
+8. fail-fast vs fail-safe
+9. Internal working of hashmap in Java 8 using binray-tree
+10.Pre-built lambda functional Interface
+11.explain where predict consumer and suppliers are used in stream
+Spring Boot
+1. flow of springboot application
+2. Stereotype annotations only names
+3. fetchtype.LAZY vs fetchtype.EAGER
+HandsOn Code
+I have a array which has 10 number and one is number is missing like 1,2,3,4,5,6,7,9,10 ,,8
+is missing here can you find out that number?
+ 
+Write a program to find whether a String is an anagram or not
+Write a program to find whether a String is a palendrome or not
+Write a program to merge two lists and maps using Stream API
+Write a program to sort an Employee salary using Stream API and Comparable Interface
+Write a program to print even numbers upto 100 using Thread Executors
+Write a program for two sum in an Array.
+Write a program to add the elements in an array using Stream API
+Write a program to find the maximum occurrence of an element in an array.
+Write a program to find the binary value of a given decimal number
+Write a program to find the sum of first natural numbers.
+Write a program to merge two lists and maps using Stream API
+Write a program to add the elements in an array using Stream API
+Write a program to find the binary value of a given decimal number
+Q1. Java Program to Find the Occurrence of Words in a String using Collection framework?
+eg.  For String “Alice is girl and Bob is boy”  , Occurrence of Words will be  -  
+          {Bob=1, Alice=1, and=1, is=2, girl=1, boy=1}
+Q2. find non repeating number from array
+eg - input =  1 2 5 3 2 1 4  , out put = 5 3 4
+Q3. Construct Binary Search Tree from Preorder Traversal
+Input: preorder = [8,5,1,7,10,12]
+Output: [8,5,10,1,7,null,12]
+Q4. write a program to determine if string has all unique characters or not ?
+Q5.write afinction to check if string has a permutation of palindrome .
+eg ; input : "Tact Coa"
+output : true  - ("taco cat" ,"atco cta" )
+ 
+reverse a string using recursion
+find the number of occurrence of each word in a file; find any 2 words with same occurrence; if found sort those words alphabetically in ascending order; if not found sort based on values in ascending order
+ 
+ 
+1. How to sort a array in descending order without using inbuilt methods.
+2. how to sort this in other optimised way if any.
+3. Get the highest salary employee namee by joining two tables employee and department who has relation with dept id
+4. please have a fullstack setup of any sample project in the your laptop he will ask the questions based on that. Mostly ask from very basic
+Suggestion:: try to write code for every program in a optimised way
+ 
+latest::
+ 
+1. write a code for sort array in optimized way and given array{1,1,0,0,1,0,1,0} explain time complexity for the code 
+ 
+ 
+wirte a sql query for getting max salaries for employees department wise
+ 
+ 
+Technologies used and previous projects and tech stack
+How do we manage db properties in multiple env scenario
+Questions on spring profiles
+Questions related to project configuration
+How did you handle transaction and questions related to transaction management(saving into multiple tables)
+Spring transactional behaviour and attributes like isolation, propagation, etc
+Java version used and features of newer java versions
+Write code - class employee has name, lname, salary, age. We have a list of employees. Use java 8 to sort the list per fname. If same fname then further sort on lname and if same lname then further sort by age.
+Method references, types of method references
+Given Emp list write code to get list of first names that start with 'A' and return fname in caps
+Query to fetch all employee addresses from employee and employee_address
+Query to fetch Query to find second largest salary from employee table
+Scope of bean and where it can be used and how
+Your custom functional interface
+ 
+What are Bean?What there scops
+Q2. What is autowiring? and there types
+Q3. What are transactionals? and how can we provide them in spring
+Q4. how to provide JPA? are those classes or interfaces
+Q5. What are stereotype annotations? name a few
+Q6. What is Dependency Injection and how can we provide them?
+Q7. Create a CustomException class and how can we use it
+ 
+Explain current project .
+what was your role
+Abstraction and Encapuslation
+How to create Immutable class in Java?
+private final List<String> address; is this is immutable -- solution Need to use ImmutableList
+write equal and hashcode method () for Employee class id, name
+Does Immutability and Singleton solves the same purpose?
+what is Iterator
+what is fail fast and fail save
+merge two sub array in single array using only single loop ? int arr1 = {1,2,3,4,5};
+int arr2 = {6,7,8,9,10};
+ 
+@trasaction what is doing if we have 2 operation for save and one for update , save got pass and update got failed .
+5000 record can we same in one short in database ? if not what is solution
+have you work for batch processing
+code for call and use another rest api in one api method .
+Designe Pattern , which you have used in which situation . Singelton , Abstract factory , factory pattern
+springboot exceptionhandling
+ACID principle
+ 
+About the previous project and technologies...
+1. HashMap internal working and can we add custom object as key.if we remove equals and hashcode() from employee class then what will happen.
+2. Difference b/w ArrayList and linkedList and Linkedlist internal working.
+3. In which scenario we should use linkedlist.
+4. Comparable vs Comparator..? how we can sort the list using comparable interface .
+5. @Transactional use and acid properties
+6. Spring boot feature...
+7. How many collection have you used..?
+8. Java 8 new features..
+> what is stream  api
+> what is functional interface.
+> lambda expression
+10.Difference @RestController vs @Controller
+11.Difference put vs post vs get vs delete
+12.What is idempotent in rest methods?
+13.How we can secure Rest call..?
+14.what is logic behind fetch record if we have multiple condition like id Or (id & depart id) Or emp name started with s
+9. Working of annotation's @ComponentScan @EnableAutoConfiguration @Configuration
+ 
+ 
+what is OOPS concept ..  ?
+What is IS-A realionship and HAS-A realtionship..? with an example ..?
+String class and scenareo's..?
+   like String s1  = new String("hello"); //how many object will create..?
+  String s2 = "hello";
+equality check of s1 and s2  (==) and equals()
+ 
+Difference between abstract class and interface..?
+Tell me all the implicit object of JSP...
+what is servlet and its life cycle....?
+how to fetch data from two tables ..?
+ 
+ 
+Asked me about my previous project experience.
+Functional Interface
+interface Java 8
+predefined functional interface
+Stream API
+find the first duplicate character in given string.
+final, finally, finalize
+post, put, patch
+Read about Azure.
+t.start()
+Executor Framework
+ 
+ 
+1. Explain current project architecture.
+2.  How to do custom exception handling, Explain with current project scenario.
+3. At Which layer we handle custom exception?
+4. WAP to sort student class on the basis of id then name.
+5. Which one is better hql or native query?
+6. What all methods CrudRepository can handle ?
+7. JpaRepository vs Cudrepository?
+8. How to write query method for getting list of Student class on the basis of id and name ,order by id and name in descending order.
